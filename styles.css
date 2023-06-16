@@ -14,16 +14,13 @@ a {
 
 .header {
     background-color: #1F2937;
-    padding-bottom: 20px;
-    /* margin-bottom: 20px; */
-    /* padding: 20px; */
+    padding: 32px;
 }
 
 .header ul {
     display: flex;
     list-style: none;
-    padding: 0 80px
-    /* padding: 20px; */
+    padding: 0 80px;
 }
 
 .header ul li{
@@ -46,14 +43,21 @@ a {
 
 .content-one {
     background-color: #1F2937;
-    padding: 80px;
+    padding: 128px;
     display: flex;
-    gap: 20px;
+    gap: 48px;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-one .info {
+    align-items: end;
 }
 
 .content-one img {
-    width: 300px;
-    height: 300px;
+    width: 500px;
+    height: 500px;
+    border: 1px solid #3882F6;
     flex-shrink: 0;
 }
 
@@ -82,6 +86,57 @@ a {
     border-radius: 10px;
 }
 
+.content-two {
+    padding: 32px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.cards {
+    margin: 32px;
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+
+.card{
+    flex-basis: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;     
+    /* flex-grow: 1; */
+}
+
+.card img {
+    width: 320px;
+    height: 320px;
+    border: 1px solid #3882F6;
+    border-radius: 10%;
+}
+
+.card p {
+    text-align: center;
+}
+
+
+.content-three {
+    background-color: #E5E7EB;
+    padding: 60px 72px;
+    display: flex;
+    flex-direction: column;
+}
+
+.content-three p {
+    /* text-align: center; */
+}
+
+.quote-author {
+    margin-left: auto;
+}
+
 .quote-section {
     color: #1F2937;
     font-size: 36px;
@@ -94,17 +149,35 @@ a {
     color: #F9FAF8;
 }
 
-.content-three {
-    background-color: #E5E7EB;
-}
-
 .content-four {
     background-color: #3882F6;
+    margin: 48px 72px;
+    color: #E5E7EB;
+    padding: 25px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.big-text {
+    color: #F9FAF8;
+    font-size: 20px;
+}
+
+.small-text {
+    color: #E5E7EB;
+}
+
+.content-four button {
+    border: 1px solid #F9FAF8;
+    width: 120px;
+    border-radius: 10px;
 }
 
 .footer {
     background-color: #1F2937;
     color: #E5E7EB;
     margin-top: auto;
+    padding: 32px;
+    text-align: center;
 }
 
