@@ -135,11 +135,12 @@ a {
 
 .quote-author {
     margin-left: auto;
+    font-size: 22px;
 }
 
 .quote-section {
     color: #1F2937;
-    font-size: 36px;
+    font-size: 28px;
     font-style: italic;
     font-weight: lighter;
 }
@@ -160,7 +161,7 @@ a {
 
 .big-text {
     color: #F9FAF8;
-    font-size: 20px;
+    font-size: 32px;
 }
 
 .small-text {
